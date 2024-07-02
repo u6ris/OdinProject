@@ -1,0 +1,176 @@
+.first, .footer{
+    background-color:#1F2937 ;
+}
+
+.fourth{
+    background-color:#3882F6;
+}
+
+.third{
+    background-color:#E5E7EB;
+    padding: 100px 215px;
+}
+
+body{
+    font-family:'Roboto';
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.first{
+    padding: 10px 200px 0 200px;
+}
+
+.header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.titre{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content{
+    color: #E5E7EB;
+    font-size: 18px
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+    font-size: 14px
+}
+
+.sbody{
+    display:flex;
+    margin: 100px 0;
+    gap: 20px;
+}
+
+.image{
+    background-color: #63676f;
+    color: #E5E7EB;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.b1{
+    margin-top: 10px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.second{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.titl{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+
+
+.quote{
+    color: #1F2937;
+    font-weight: lighter;
+    font-size: 27px;
+    font-style: italic;
+    
+}
+
+.group{
+    text-align: center;
+    width:150px
+}
+
+.bunch{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border:3px solid #3882F6;
+    margin-bottom: 5px;
+}
+
+.subtext{
+    display: flex;
+    flex-wrap: wrap;
+}
+.signature{
+    font-weight: bold;
+    text-align: end;
+}
+
+.fourth{
+    margin: 75px 120px;
+    padding: 40px 80px;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.title{
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+.desc{
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+.b2{
+    color: #F9FAF8;
+    width: 100px;
+    border: solid #F9FAF8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 30px;
+    color: #F9FAF8;
+    font-size: 14px;
+}
