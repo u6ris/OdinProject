@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Etch-a-sketch</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Etch-a-sketch</h1>
+        </header>
+        <main>
+            <div class="settings">
+                <input id="colorPicker" type="color" value="#111111">
+                <button id="color" class="active">Color mode</button>
+                <button id="rainbow">Rainbow mode</button>
+                <button id="eraser">Eraser</button>
+                <button id="clear">Clear</button>
+            </div>
+            <div class="content">
+                <div id="grid"></div>
+            </div>
+            <div class="sizeSelection">
+                <input id="sizeSlider" type="range" value="16" min="1" max="100"/>
+                <div class="size">16 x 16</div>
+            </div>
+        </main>
+        <footer></footer>
+        <script src="script.js"></script>
+    </body>
+</html>
